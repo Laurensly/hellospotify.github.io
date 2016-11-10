@@ -1,0 +1,62 @@
+.center-block {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+     height: 100%;
+    padding: 0;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    display: table;
+}
+
+.big {
+font-size:150%; 
+    word-break: break-all;
+    color: white;
+}
+
+.right-head{
+    text-align: right;
+    color: #ccff00;
+    width: 100%;
+}
+
+.left-head{
+    background-color: #ccff00;
+    width: 70%;
+    margin-left: 12%;
+}
+
+.left-head-text{
+    width:80%;
+    text-align: left;
+}
+
+.bg-contact{
+    background-color: green;
+    padding-bottom: 70px;
+}
+
+.contact-top{
+    margin-top: 100px;
+}
+
+.newS{
+    padding: 100px 100px 0px 100px;
+}
+
+.data-long {
+    margin-bottom:100px;
+}
+
+
+@font-face {
+    font-family: 'jv-pandora';
+    src: url('vendor/justvector/svg/pandora.svg');
+}
+
+.jv-pandora{
+    font-family: pandora;
+}
