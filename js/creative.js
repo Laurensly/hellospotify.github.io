@@ -44,7 +44,9 @@
         scale: 0.3,
         distance: '0px'
     }, 300);
-
+    
+    
+    
     // Initialize and Configure Magnific Popup Lightbox Plugin
     $('.popup-gallery').magnificPopup({
         delegate: 'a',
@@ -62,3 +64,5 @@
     });
 
 })(jQuery); // End of use strict
+
+

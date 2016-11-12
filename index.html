@@ -16,13 +16,9 @@
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="vendor/justvector/justvector.eps" rel="stylesheet" type="text/css">
-    <link href="vendor/justvector/justvector.png" rel="stylesheet" type="text/png">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Lobster');
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
@@ -50,7 +46,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Hello, Spotify.</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -60,7 +56,7 @@
                         <a class="page-scroll" href="#about">See</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Think</a>
+                        <a class="page-scroll" href="#services">Meet</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Imagine</a>
@@ -76,11 +72,12 @@
     </nav>
 
     <header>
-        <div class="container header-content">
-            <div class="header-content-inner col-sm-6">
-                <div class="left-head"><h1 class="left-head-text" style="color:white" "align:left">hello,</h1></div>
-                <h1 class="right-head" align="right" style="color:#ccff00">spotify.</h1>
-                </div>
+        <div class="header-content">
+            <div class="row">
+            <div class="col-sm-6 col-med-6">
+                <h1><span class="hello">hello</span><span class="spotify">spotify</span><span class="hello">.</span></h1>
+            </div>
+            </div>
         </div>
     </header>
 
@@ -90,7 +87,7 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Boy, am I glad to finally meet you.</h2>
                     <hr class="light">
-                    <p class="text-faded">This will be fun, I <i>promise</i>.<br> First, you can scroll down to learn a little about me. <br>Then, I have a gift for you. <br>Then, we must depart. <br> <span class="big">But</span> <br>I will leave you with my contact info. <br> That way, you can reach out to me when you want to see me again!<br>Sound good? Let's get started!</p>
+                    <p class="par2">This will be fun, I <i>promise</i>.<br> First, you can scroll down to learn a little about me. <br>Then, I have a gift for you. <br>And, <i>then</i>, we must depart. <br> <span class="big">But...</span> <br>I will leave you with my contact info. <br> That way, you can reach me when you want to see me again!<br>Sound good? Let's get started!</p>
                     <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Okay, Lauren!</a>
                 </div>
             </div>
@@ -112,6 +109,9 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
+                        <i class="fa fa-4x fa-music text-primary sr-icons"></i><button class="hmm" onclick="play()"></button>
+                        <audio id="audio" src="files/FL.mp3" onclick="play()"><span class="fa fa-4x fa-music text-primary sr-icons"></span></audio>
+                        
                         <i class="fa fa-4x fa-music text-primary sr-icons"></i>
                         <h3>Musician</h3>
                         <p class="text-muted">Professional singer-songwriter, with over 1,000 original songs, since the age of 13.</p>
@@ -120,8 +120,8 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-laptop text-primary sr-icons"></i>
-                        <h3>Web Developer</h3>
-                        <p class="text-muted">Free-lance Web Developer, part-time hackathoner, full-time night-owl.</p>
+                        <h3>Front-End UI</h3>
+                        <p class="text-muted">Freelance web developer, part-time hackathoner, full-time night owl.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
@@ -138,75 +138,186 @@
                         <p class="text-muted">Music and technology are where my passion lies, among other things.</p>
                     </div>
                 </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <a href="files/MSISOM%20resume%202016.pdf" class="btn btn-default btn-xl sr-button resume" target="_blank" style="color:white">Resume</a></div>
             </div>
         </div>
     </section>
 
-    <section class="no-padding" id="portfolio">
-        <section class="bg-primary newS" id="about">
+    <section class="bg-primary" id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Here's my surprise...</h2>
                     <hr class="light">
-                    <p class="text-faded">Since I love Spotify's services so much, I went around and collected data from [X ENTER NUMBER HERE] of students at the University of Florida,<br> to find out what their favorite streaming-service was.<br> Here are the results:</p>
+                    <p class="par">Since I love Spotify's services so much... <br>I went around my campus and collected data to see what others were using.<br> Here are the top 4 most-voted services:</p>
+                </div>
+
+        
+        <!--4 columns grid <div class="col-lg-8 col-lg-offset-2 text-center">-->
+        <div class="container col-lg-12 bg-contact">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-spotify iconlogo text-primary sr-icons"></i>
+                        <h3>Spotify</h3>
+                        <p class="text-muted iconlogo">Voted <span class="big2">#1.</span> (<i>duh</i>)</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-google iconlogo text-primary sr-icons"></i>
+                        <h3>Google Play</h3>
+                        <p class="text-muted iconlogo">Voted <span class="big2">#2.</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <h1 class="pandora sr-icons">P</h1>
+                        <h3>Pandora</h3>
+                        <p class="text-muted iconlogo">Voted <span class="big2">#3.</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-apple iconlogo text-primary sr-icons"></i>
+                        <h3>Apple Music</h3>
+                        <p class="text-muted iconlogo">Voted <span class="big2">#4.</span></p>
+                    </div>
                 </div>
                 </div>
             </div>
-    </section>
-                <!--4 columns grid<div class="col-lg-8 col-lg-offset-2 text-center">-->
-        <div class="container col-lg-12">
+            </div>
+        </div>
+    </section> 
+    
+    
+    
+    <!--data-->
+    <section id="data">
+    <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box data-long">
-                        <i class="fa fa-4x fa-spotify text-primary sr-icons"></i>
-                        <h3>Spotify</h3>
-                        <p class="text-muted">Professional singer-songwriter, with over 1,000 original songs, since the age of 13.</p>
-                    </div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Here is the breakdown:</h2>
+                    <hr class="primary">
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-google text-primary sr-icons"></i>
-                        <h3>Google Play</h3>
-                        <p class="text-muted">Free-lance Web Developer, part-time hackathoner, full-time night-owl.</p>
-                    </div>
+            </div>
+ 
+    <section class="" id="">
+        <div class="container text-center">
+            <div class="row col-lg-12">
+                <div class="col-lg-12">
+                <div><iframe class="col-lg-6" width="400" height="423" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1O4n6qOFMcNldkdpD2GKrc-jeps4Oy6iZ2HtNoXuL0dE/pubchart?oid=1806239193&amp;format=interactive"></iframe></div>
+                <div>
+                    <h3 class="col-lg-6 box">Out of 5 choices, <span class="spotifydata">Spotify</span> was the <span style="font-size:80px">#1</span><br>choice among voters.</h3>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box"> <!--right here-->
-                        <i class="jv jv-4x .jv-pandora text-primary jv-icons">&#xf158;</i>
-                        
-                        <h3>Pandora</h3>
-                        <p class="text-muted">Proud gator at UF, in the combined-degree program for Information Systems.</p>
-                    </div>
+                <div class="row">
+                    <h1 class="col-lg-6 box2"><span class="spotifydata" style="font-size:30px">Spotify</span> was chosen #1 in <span style="font-size:80px">both</span> groups.</h1> 
+                <div class="col-lg-6"><iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1O4n6qOFMcNldkdpD2GKrc-jeps4Oy6iZ2HtNoXuL0dE/pubchart?oid=121586944&amp;format=interactive"></iframe></div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Passionate</h3>
-                        <p class="text-muted">Music and technology are where my passion lies, among other things.</p>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
-        
-        
+    </div>
+    </section>
+    
+    
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-box">
+                        <form action="/html/tags/html_form_tag_action.cfm" method="post">
+                            <textarea name="comments" id="comments" class="process" class="img-responsive" alt="">The Process.</textarea>
+                        </form>
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Data-Collection
+                                </div>
+                                <div class="project-name">
+                                    Simple Poll integration in Slack groupchats.
+                                </div>
+                                <div class="project-category text-faded">
+                                    Reason for method:
+                                </div>
+                                <div class="project-name">
+                                    To ensure an inflow of responses without "spamming" or pressuring the audience.
+                                </div>
+                                <div class="project-category text-faded">
+                                    Challenge:
+                                </div>
+                                <div class="project-name">
+                                    Collecting the data and building the website all within a span of 3 days.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-box">
+                        <form action="/html/tags/html_form_tag_action.cfm" method="post">
+                            <textarea name="comments" id="comments" class="people" class="img-responsive" alt="">The People.</textarea>
+                        </form>
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Commonalities:
+                                </div>
+                                <div class="project-name">
+                                    University of Florida students                            
+                                </div>
+                                <div class="project-category text-faded">
+                                    Organizations:
+                                </div>
+                                <div class="project-name">
+                                    Audio-Engineering Society and GatorTech
+                                </div>
+                                <div class="project-category text-faded">
+                                    Overall Demographics:
+                                </div>
+                                <div class="project-name">
+                                    Mostly males, between age of 18 and 25
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-box">
+                        <form action="/html/tags/html_form_tag_action.cfm" method="post">
+                            <textarea name="comments" id="comments" class="data" class="img-responsive" alt="">The Data.</textarea>
+                        </form>
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    I researched the most-popular music-streaming services. Then, I took the top six services (Spotify, Pandora, Amazon Prime, Apple Music, Google Play) and proceeded to creating the polls. From there, I took the remaining top four chosen by audience.          
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         
     <section id="contact">
         <div class="container col-lg-12 bg-contact">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading contact-top">Let's Get In Touch!</h2>
+                    <h2 class="section-heading contact-top">Let me know what you think!</h2>
                     <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <p class="par">I would love to speak with you about a possible internship! If the feelings are mutual, give me a call or email me and we can set up a chat!</p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>123-456-6789</p>
+                    <p>904-868-6740</p>
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                    <p><a href="mailto:lslyman7@ufl.edu"><span style="color:white">lslyman7@ufl.edu</span></a></p>
                 </div>
             </div>
         </div>
@@ -225,7 +336,25 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
+    
+    <!--music-->
+<script>
+    function play() {
+        var audio = document.getElementById('audio');
+        if (audio.paused) {
+            audio.play();
+            $('#music').removeClass('glyphicon-play-circle')
+            $('#music').addClass('glyphicon-pause')
+        }else{
+            audio.pause();
+            audio.currentTime = 0
+            $('#music').addClass('glyphicon-play-circle')
+            $('#music').removeClass('glyphicon-pause')
+        }
+    }
+</script>
 
+    
 </body>
 
 </html>

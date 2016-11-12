@@ -1,62 +1,212 @@
 .center-block {
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-     height: 100%;
-    padding: 0;
-    width: 100%;
-    align-content: center;
-    align-items: center;
-    text-align: center;
-    display: table;
 }
 
 .big {
-font-size:150%; 
+    font-size:150%; 
     word-break: break-all;
     color: white;
 }
 
-.right-head{
-    text-align: right;
-    color: #ccff00;
-    width: 100%;
+.big2 {
+    font-size:150%; 
+    word-break: break-all;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.left-head{
-    background-color: #ccff00;
-    width: 70%;
-    margin-left: 12%;
+.hello{
+    color: #1ED760;
+    background-color:;
+    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.left-head-text{
-    width:80%;
-    text-align: left;
+.spotify{
+    color: #1ED760;
+    background-color:#000;
+    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .bg-contact{
-    background-color: green;
-    padding-bottom: 70px;
+    background-color: #1ED760;
+    width:100%;
+    color:white;
 }
 
 .contact-top{
     margin-top: 100px;
 }
 
-.newS{
-    padding: 100px 100px 0px 100px;
+.resume{
+    margin-top: 20px;
+    background-color: #1ED760;
 }
 
 .data-long {
     margin-bottom:100px;
 }
 
-
-@font-face {
-    font-family: 'jv-pandora';
-    src: url('vendor/justvector/svg/pandora.svg');
+.wrapper-data-long {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
 }
 
-.jv-pandora{
-    font-family: pandora;
+.layer {
+    background-color: rgba(248, 247, 216, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.pandora{
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 55px;
+}
+
+
+.dataraw {
+    text-align: center;
+    width:304; 
+    height:424.5;
+}
+
+.chart-content {
+    width: 50%;
+    margin: 0px auto;
+}
+
+.embed-container {
+    height: 0;
+    width: 100%;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    position: relative;
+}
+			
+.embed-container iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    align-content: center;
+    text-align: center;
+    margin-left: 23%;
+    margin-right: %;
+}
+
+@media (min-width: 992px) {
+.embed-container iframe {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    left: 0;
+    align-content: center;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: %;
+    }.chart-content {
+    width: 0%;
+    margin: 0px auto;
+}
+
+.embed-container {
+    height: 0;
+    width: 10%;
+    padding-bottom: 5.25%;
+    overflow: hidden;
+    position: relative;
+}
+}
+
+.iconlogo{
+    color:white;
+}
+
+.par{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.par2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box{
+    width: 400px;
+    height: auto;
+    text-align: center;
+    margin: 20px auto;
+    padding: 50px;
+    border: solid #1ED760 2px;
+    display: block;
+    word-break:keep-all;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.box2{
+    width: 500px;
+    height: auto;
+    text-align: center;
+    margin: 20px auto;
+    padding: 50px;
+    border: solid #1ED760 2px;
+    display: block;
+    clear: both;
+    word-break:keep-all;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.spotifydata{
+    color:#1ED760;
+    font-size:80px;
+    font-weight: bold;
+}
+
+.people{
+    width:100%;
+    height:260px;
+    background-color:coral;
+    border:none;
+    color:white;
+    padding:20%;
+    font:50px sans-serif;
+    text-align:center;
+    vertical-align: middle; 
+}
+
+.data{
+    width:100%;
+    height:260px;
+    background-color:deepskyblue;
+    border:none;
+    color:white;
+    padding:20%;
+    font:50px sans-serif;
+    text-align:center;
+    vertical-align: middle; 
+}
+
+.process{
+    width:100%;
+    height:260px;
+    background-color:gold;
+    border:none;
+    color:white;
+    padding:19%;
+    font:50px sans-serif;
+    text-align:center;
+    vertical-align: middle; 
 }
