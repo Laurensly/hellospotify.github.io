@@ -1,0 +1,322 @@
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #1ED760;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #1ED760;
+    background-color: #1ED760;
+    color: white;
+}
+
+.big {
+    font-size:150%; 
+    word-break: break-all;
+    color: white;
+}
+
+.big2 {
+    font-size:150%; 
+    word-break: break-all;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hello{
+    color: #1ED760;
+    background-color:;
+    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.spotify{
+    color: #1ED760;
+    background-color:#000;
+    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-contact{
+    background-color: #1ED760;
+    width:100%;
+    color:white;
+}
+
+.contact-top{
+    margin: 30px;
+}
+
+.resume{
+    margin-top: 20px;
+    background-color: #1ED760;
+}
+
+.data-long {
+    margin-bottom:100px;
+}
+
+.wrapper-data-long {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
+
+.layer {
+    background-color: rgba(248, 247, 216, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.pandora{
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 55px;
+}
+
+
+.dataraw {
+    text-align: center;
+    width:304; 
+    height:424.5;
+}
+
+.chart-content {
+    width: 50%;
+    margin: 0px auto;
+}
+
+.embed-container {
+    height: 0;
+    width: 100%;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    position: relative;
+}
+			
+.embed-container iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    align-content: center;
+    text-align: center;
+    margin-left: 23%;
+    margin-right: %;
+}
+
+@media (min-width: 992px) {
+.embed-container iframe {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    left: 0;
+    align-content: center;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: %;
+    }.chart-content {
+    width: 0%;
+    margin: 0px auto;
+}
+
+.embed-container {
+    height: 0;
+    width: 10%;
+    padding-bottom: 5.25%;
+    overflow: hidden;
+    position: relative;
+}
+}
+
+.iconlogo{
+    color:white;
+    word-break: break-all;
+}
+
+.par{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.par2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box{
+    width: 400px;
+    height: auto;
+    text-align: center;
+    padding: 50px;
+    border: solid #1ED760 2px;
+    word-break:keep-all;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.box .bluebox {
+    width: 400px;
+    height: auto;
+    text-align: center;
+    margin: 20px auto;
+    padding: 50px;
+    border: solid 2px;
+    border-color: deepskyblue;
+    display: block;
+    word-break:keep-all;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.box .pinkbox{
+    border-color: salmon;
+}
+
+.box .orangebox{
+    width: 400px;
+    height: auto;
+    text-align: center;
+    margin: 20px auto;
+    padding: 50px;
+    border: solid #1ED760 2px;
+    border-color: gold;
+    display: block;
+    word-break:keep-all;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.box2{
+    width: 500px;
+    height: auto;
+    text-align: center;
+    margin: 20px auto;
+    padding: 50px;
+    border: solid #1ED760 2px;
+    display: block;
+    clear: both;
+    word-break:keep-all;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.spotifydata{
+    color:#1ED760;
+    font-size:80px;
+    font-weight: bold;
+}
+
+/*.people{
+    width:100%;
+    background-color:coral;
+    border:none;
+    color:white;
+    padding:20%;
+    font:50px sans-serif;
+    text-align:center;
+    vertical-align: middle; 
+}
+
+.data{
+    width:100%;
+    background-color:deepskyblue;
+    border:none;
+    color:white;
+    padding:20%;
+    font:50px sans-serif;
+    text-align:center;
+    vertical-align: middle; 
+} */
+
+.process{
+    width:100%;
+    height: 100%;
+    background: url('../img/portfolio/process2.jpg') no-repeat;
+    border:none;
+    color:white;
+    padding:19%;
+    background-size: cover;
+    font:50px sans-serif;
+    text-align:center;
+    vertical-align: middle; 
+}
+
+.people{
+    width:100%;
+    height: 100%;
+    background: url('../img/portfolio/people.jpg') no-repeat;
+    border-style: none;
+    color:white;
+    padding:19%;
+    background-size: cover;
+    font:50px sans-serif;
+    text-align:center;
+    vertical-align: middle; 
+}
+
+.data{
+    width:100%;
+    height: 100%;
+    background: url('../img/portfolio/data.jpg') no-repeat;
+    border:none;
+    color:white;
+    padding:19%;
+    background-size: cover;
+    font:50px sans-serif;
+    text-align:center;
+    vertical-align: middle; 
+}
+
+
+
+@media only screen and (max-width: 500px) {
+.process{
+    width:100%;
+    height: 100%;
+    background: url('../img/portfolio/process2.jpg') no-repeat;
+    border:none;
+    color:white;
+    padding:19%;
+    background-size: cover;
+    font:50px sans-serif;
+    text-align:center;
+    vertical-align: middle; 
+}
+
+.people{
+    width:100%;
+    height: 100%;
+    background: url('../img/portfolio/people.jpg') no-repeat;
+    border-style: none;
+    color:white;
+    padding:19%;
+    background-size: cover;
+    font:50px sans-serif;
+    text-align:center;
+    vertical-align: middle; 
+}
+
+.data{
+    width:100%;
+    height: 100%;
+    background: url('../img/portfolio/data.jpg') no-repeat;
+    border:none;
+    color:white;
+    padding:19%;
+    background-size: cover;
+    font:50px sans-serif;
+    text-align:center;
+    vertical-align: middle; 
+}
+}
+
+
