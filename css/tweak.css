@@ -8,6 +8,11 @@
     color: white;
 }
 
+.bg {
+    background-color: #090f0f;
+}
+
+
 .big {
     font-size:150%; 
     word-break: break-all;
@@ -211,8 +216,28 @@
 
 .spotifydata{
     color:#1ED760;
-    font-size:80px;
+    font-size:70px;
     font-weight: bold;
+    word-break: break-all;
+    display: block;
+    clear: right;
+}
+
+.top3{
+    color:#1ED760;
+    font-size:50px;
+    font-weight: bold;
+    word-break: break-all;
+    display: block;
+    clear: right;
+}
+
+.onechoice{
+    font-size:80px;
+}
+
+.datalist{
+    text-align:left; font-size:30px;
 }
 
 /*.people{

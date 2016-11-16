@@ -15,6 +15,23 @@
     background-color: #1ED760;
     color: white;
 }
+      
+      .navbar-default .nav > li > a, .navbar-default .nav > li > a:focus{
+              text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    color: #fff;
+}
+      
+      
+.nav-respond{
+    background-color: #000;
+    width: 100%;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
 
 .big {
     font-size:150%; 
@@ -43,7 +60,7 @@
     background-color:#000;
     font-size: 30px;
     word-break: break-all;
-        display: block;
+    display: block;
     clear: left;
     font-family: 'Montserrat', sans-serif;
 }
@@ -103,7 +120,7 @@
     margin: 0px auto;
 }
 
-.embed-container {
+/*.embed-container {
     height: 0;
     width: 100%;
     padding-bottom: 56.25%;
@@ -120,7 +137,7 @@
     text-align: center;
     margin-left: 23%;
     margin-right: %;
-}
+}*/
 
 .iconlogo{
     color:white;
@@ -136,14 +153,43 @@
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
+      
+.spotifydata{
+    color:#1ED760;
+    font-size:20px;
+    font-weight: bold;
+    display: block;
+    clear: right;
+}
 
-.box{
-    width: 400px;
-    height: auto;
+.onechoice{
+    font-size:20px;
+}
+      
+.datalist{
+    text-align:left; 
+    font-size:10px;
+}
+      
+.mobilehr{
+    width:10px;
+    line-height: 0px;
+    margin: 1px;
     text-align: center;
-    padding: 50px;
+    align-content: center;
+    align-items: center;
+      }
+      
+.box{
+    width: 150px;
+    height: 130px;
+    text-align: center;
+    padding: 10px;
     border: solid #1ED760 2px;
     word-break:keep-all;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 10px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -184,11 +230,12 @@
 }
 
 .box2{
-    width: 500px;
-    height: auto;
+    width: 150px;
+    height: 130px;
+    float: right;
     text-align: center;
-    margin: 20px auto;
-    padding: 50px;
+    margin: 20px;
+    padding: 10px;
     border: solid #1ED760 2px;
     display: block;
     clear: both;
@@ -197,13 +244,7 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-
-.spotifydata{
-    color:#1ED760;
-    font-size:80px;
-    font-weight: bold;
-}
-
+      
 .process{
     width:100%;
     height: 100%;
