@@ -423,6 +423,7 @@
             </div>
         </div>
     </section>
+    </section>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -438,22 +439,20 @@
     <script src="js/creative.min.js"></script>
     
     <!--music-->
-<script>
-    function play() {
-        var audio = document.getElementById('audio');
-        if (audio.paused) {
-            audio.play();
-            $('#music').removeClass('glyphicon-play-circle')
-            $('#music').addClass('glyphicon-pause')
-        }else{
-            audio.pause();
-            audio.currentTime = 0
-            $('#music').addClass('glyphicon-play-circle')
-            $('#music').removeClass('glyphicon-pause')
+    <script>
+        function play() {
+            var audio = document.getElementById('audio');
+            if (audio.paused) {
+                audio.play();
+                $('#music').removeClass('glyphicon-play-circle')
+                $('#music').addClass('glyphicon-pause')
+            }else{
+                audio.pause();
+                audio.currentTime = 0
+                $('#music').addClass('glyphicon-play-circle')
+                $('#music').removeClass('glyphicon-pause')
+            }
         }
-    }
-</script>
-
+    </script>
 </body>
-
 </html>
