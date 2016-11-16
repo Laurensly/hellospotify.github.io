@@ -154,7 +154,7 @@
 }
 
 .box{
-    width: 400px;
+    width:80%;
     height: auto;
     text-align: center;
     padding: 50px;
@@ -200,14 +200,13 @@
 }
 
 .box2{
-    width: 500px;
-    height: auto;
+    width: 50%;
+    height: 50%;
+    float: right;
     text-align: center;
     margin: 20px auto;
     padding: 50px;
     border: solid #1ED760 2px;
-    display: block;
-    clear: both;
     word-break:keep-all;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -216,6 +215,7 @@
 
 .spotifydata{
     color:#1ED760;
+    width: 100%;
     font-size:70px;
     font-weight: bold;
     word-break: break-all;
@@ -225,6 +225,7 @@
 
 .top3{
     color:#1ED760;
+    width: 100%;
     font-size:50px;
     font-weight: bold;
     word-break: break-all;
@@ -237,7 +238,15 @@
 }
 
 .datalist{
-    text-align:left; font-size:30px;
+    width: 100%;
+    text-align:left;
+    align-content: center;
+    font-size:30px;
+    padding-left: 110px;
+}
+
+.textdata{
+    width: 200%;
 }
 
 /*.people{
