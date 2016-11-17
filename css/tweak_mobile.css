@@ -355,11 +355,11 @@
       
 #gif {
     visibility: visible;
-    background: url(../img/gif%20vid.gif);
-    height: 100%;
-    width: 100%;
     -webkit-animation-play-state: running; /* Chrome, Safari, Opera */
     animation-play-state: running;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
 }
 
 #vid {

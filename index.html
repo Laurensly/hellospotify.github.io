@@ -388,7 +388,7 @@
         </div>
         
         
-    <section id="vid gif">
+    <section id="vid">
         <div>
             <video controls autoplay loop showinfo=0 style="height:100%;width:100%;pointer-events: none">
             <source src="img/VID%20SPEED%202.mp4" type="video/mp4">
@@ -396,7 +396,19 @@
             Your browser does not support the video tag.
             </video>
         </div>
-        </section>
+    </section>
+    
+    <section id="gif">
+        <div>
+            <button onload="myPlayFunction()">
+            <video controls autoplay loop showinfo=0 style="height:100%;width:100%;pointer-events: none">
+            <source src="img/VID%20SPEED%202.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+            </video>
+            </button>
+        </div>
+    </section>
         
         
     <section id="contact">
@@ -449,5 +461,14 @@
             }
         }
     </script>
+    
+    <!--gif-->
+    <script>
+        function myPlayFunction() {
+            document.getElementById("gif").style.WebkitAnimationPlayState = "running"; // Code for Chrome, Safari, and Opera
+            document.getElementById("gif").style.animationPlayState = "running";
+        }
+    </script>
+
 </body>
 </html>
