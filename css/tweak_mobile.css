@@ -303,6 +303,32 @@
     text-align:center;
     vertical-align: middle; 
 }
+      
+/*Button when clicked*/
+.buttonclicked:active {
+    color: #fff;
+    background-color: #1ED760;
+    visibility: visible;
+    -webkit-transform: translateY(0) scale(1);
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    -webkit-transition: all 0.35s ease 0s, -webkit-transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s;
+    transition: all 0.35s ease 0s, transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s;
+}
+      
+.buttonclicked {
+    color: #fff;
+    background-color: #1ED760;
+    visibility: visible;
+    -webkit-transform: translateY(0) scale(1);
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    -webkit-transition: all 0.35s ease 0s, -webkit-transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s;
+    transition: all 0.35s ease 0s, transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s;
+}
+      
 }
 
 
