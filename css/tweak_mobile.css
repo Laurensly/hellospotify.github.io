@@ -358,8 +358,8 @@
     background: url(../img/gif%20vid.gif);
     height: 100%;
     width: 100%;
-    -webkit-animation-play-state: play; /* Safari 4.0 - 8.0 */
-    animation-play-state: play;
+    -webkit-animation-play-state: running; /* Chrome, Safari, Opera */
+    animation-play-state: running;
 }
 
 #vid {
