@@ -354,7 +354,7 @@
 }
 
 #vid {
-    visibility: hidden;
+    display: none;
 }
 
 .gif{
