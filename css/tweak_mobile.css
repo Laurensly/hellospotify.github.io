@@ -9,6 +9,13 @@
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: #1ED760;
 }
+      
+.navbar-default .navbar-header .navbar-toggle {
+    font-weight: 700;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
 
 .navbar-default .navbar-toggle {
     border-color: #1ED760;
@@ -304,19 +311,7 @@
     vertical-align: middle; 
 }
       
-/*Button when clicked*/
-.buttonclicked:active {
-    color: #fff;
-    background-color: #1ED760;
-    visibility: visible;
-    -webkit-transform: translateY(0) scale(1);
-    opacity: 1;
-    transform: translateY(0) scale(1);
-    opacity: 1;
-    -webkit-transition: all 0.35s ease 0s, -webkit-transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s;
-    transition: all 0.35s ease 0s, transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s;
-}
-      
+/*resume when clicked*/
 .buttonclicked {
     color: #fff;
     background-color: #1ED760;
@@ -328,7 +323,47 @@
     -webkit-transition: all 0.35s ease 0s, -webkit-transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s;
     transition: all 0.35s ease 0s, transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s;
 }
+.buttonclicked:active {
+    color: #fff;
+    background-color: #1ED760;
+    visibility: visible;
+    -webkit-transform: translateY(0) scale(1);
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    -webkit-transition: all 0.35s ease 0s, -webkit-transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s;
+    transition: all 0.35s ease 0s, transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s;
+}
+
+.buttonclicked:hover, .buttonclicked:focus, .buttonclicked.focus, .buttonclicked:active, .buttonclicked.active, .open > .dropdown-toggle.buttonclicked{
+    color: #fff;
+    background-color: #1ED760;
+    visibility: visible;
+    -webkit-transform: translateY(0) scale(1);
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    -webkit-transition: all 0.35s ease 0s, -webkit-transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s;
+    transition: all 0.35s ease 0s, transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s;
+}
       
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    color: #1ED760;
+    background-color: #f2f2f2;
+    border-color: #ededed;
+}
+      
+#gif {
+    visibility: visible;
+    background: url(../img/gif%20vid.gif);
+    height: 100%;
+    width: 100%;
+}
+
+#vid {
+    visibility: hidden;
+}
+
 }
 
 
