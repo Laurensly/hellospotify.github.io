@@ -358,9 +358,7 @@
     background: url(../img/gif%20vid.gif);
     height: 100%;
     width: 100%;
-    -webkit-animation: mymove 5s; /* Safari 4.0 - 8.0 */
     -webkit-animation-play-state: play; /* Safari 4.0 - 8.0 */
-    animation: mymove 5s;
     animation-play-state: play;
 }
 
