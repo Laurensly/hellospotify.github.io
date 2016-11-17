@@ -271,10 +271,10 @@
     
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
-            <div class="row no-gutter popup-gallery mobileclick">
+            <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
                     <div class="portfolio-box">
-            <textarea name="comments" id="comments" class="process" class="img-responsive" alt="">The Process.</textarea>
+            <textbox name="comments" id="comments" class="process img-responsive">The Process.</textbox>
                             <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content mobiletxt-body">
                                 <div class="project-category text-faded">
@@ -301,7 +301,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="portfolio-box" style="">
-                <textarea name="comments" id="comments" class="people" class="img-responsive" alt="">The People.</textarea>
+                <textbox name="comments" id="comments" class="people img-responsive" alt="">The People.</textbox>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -328,11 +328,11 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="portfolio-box">
-                    <textarea name="comments" id="comments" class="data" class="img-responsive" alt="">The Data.</textarea>
+                    <textbox name="comments" id="comments" class="data img-responsive" alt="">The Data.</textbox>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
-                                    I researched the most-popular music-streaming services. Then, I took the top six services (Spotify, Pandora, Amazon Prime, Apple Music, Google Play) and proceeded to creating the polls. From there, I took the remaining top four chosen by audience.          
+                                    I researched the most-popular music-streaming services. Then, I took the top six services (Spotify, Pandora, Amazon Prime, Apple Music, Google Play) and proceeded to creating the polls. From there, I took the remaining top four chosen by audience.
                                 </div>
                             </div>
                         </div>
@@ -426,6 +426,16 @@
 
     <!-- jQuery -->
     <script src="test/jquery/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#hide").click(function(){
+            $("p").hide();
+        });
+        $("#show").click(function(){
+            $("p").show();
+        });
+    });
+    </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="test/bootstrap/js/bootstrap.min.js"></script>
@@ -454,11 +464,16 @@
         }
     </script>
     
-    <!--gif-->
+    <!--scroll reveal for tiles on mobile-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
     <script>
-         $('div textarea.mobileclick').on('click touchstart', function(){
-            return true;
-         });
+    x = 0;
+    $(window).ready(function(){
+        $("div").scroll(function(){
+            $("div").display(Text);
+        });
+    });
     </script>
 
 </body>

@@ -276,6 +276,11 @@
           box-sizing: border-box;
 }
       
+
+.nonscroll {
+    display: none;
+  }
+      
 .process{
     width:100%;
     height: 100%;
@@ -286,7 +291,7 @@
     background-size: cover;
     font:50px sans-serif;
     text-align:center;
-    vertical-align: middle; 
+    vertical-align: middle;
 }
       
 .mobiletxt-body{
