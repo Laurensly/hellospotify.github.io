@@ -54,21 +54,21 @@
 }
 
 .hello{
+    margin: .3%;
     color: #1ED760;
     font-size: 20px;
-    word-break: break-all;
-    display: block;
-    clear: left;
+    line-height: 20px;
+    float: left;
     font-family: 'Montserrat', sans-serif;
 }
 
-.spotify{
+#spotifymobile{
+    height: 100%;
     color: #1ED760;
-    background-color:#000;
-    font-size: 30px;
-    word-break: break-all;
-    display: block;
-    clear: left;
+    background-color:black;
+    font-size-adjust: 10px;
+    font-size: 20px;
+    float: left;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -149,6 +149,10 @@
 .iconlogo{
     color:white;
     word-break: break-all;
+}
+
+.mobilelogo{
+    font-size: 10px;
 }
 
 .par{
