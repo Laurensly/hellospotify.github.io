@@ -249,6 +249,10 @@
     width: 200%;
 }
 
+.clickme{
+    cursor: pointer; cursor: hand; 
+}
+
 /*.people{
     width:100%;
     background-color:coral;

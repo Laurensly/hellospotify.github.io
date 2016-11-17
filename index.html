@@ -108,7 +108,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-music text-primary sr-icons" onclick="play()"><audio id="audio" src="files/FL.mp3" onclick="play()"><span class="fa fa-4x fa-music text-primary sr-icons"></span></audio></i>
+                        <i class="fa fa-4x fa-music text-primary sr-icons clickme" onclick="play()"><audio id="audio" src="files/FL.mp3" onclick="play()"><span class="fa fa-4x fa-music text-primary sr-icons"></span></audio></i>
                         <h3>Musician</h3>
                         <p class="text-muted">Professional singer-songwriter, with over 1,000 original songs, since the age of 13.<br>(click the <span><i class="fa fa-4x fa-music text-primary sr-icons" style="font-size:20px;"></i></span> for sample)</p>
                     </div>
@@ -271,7 +271,7 @@
     
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
+            <div class="row no-gutter popup-gallery mobileclick">
                 <div class="col-lg-4 col-sm-6">
                     <div class="portfolio-box">
             <textarea name="comments" id="comments" class="process" class="img-responsive" alt="">The Process.</textarea>
@@ -456,10 +456,9 @@
     
     <!--gif-->
     <script>
-        function myPlayFunction() {
-            document.getElementById("gif").style.WebkitAnimationPlayState = "running"; // Code for Chrome, Safari, and Opera
-            document.getElementById("gif").style.animationPlayState = "running";
-        }
+         $('div textarea.mobileclick').on('click touchstart', function(){
+            return true;
+         });
     </script>
 
 </body>

@@ -71,6 +71,10 @@
     float: left;
     font-family: 'Montserrat', sans-serif;
 }
+      
+.section-heading{
+    font-size: 25px;  
+}
 
 .bg-contact{
     background-color: #1ED760;
