@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <title>Hello, Spotify</title>
-
+    
     <!-- Bootstrap Core CSS -->
     <link href="test/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -201,7 +201,7 @@
                 <div class="col-sm-6">
                     <!--<div class="embed-responsive embed-responsive-16by9 embed-responsive-4by3">
                        <iframe class="embed-responsive-item" src="https://docs.google.com/spreadsheets/d/1MFUFVkEWQCb2A-58N4nQmaKGQFY7_e8uQwUhf6nieQ0/pubchart?oid=1121740962&amp;format=interactive"></iframe></div>-->
-                        <h3 class="box">Out of 5 choices, <span class="spotifydata">Spotify</span> was the <span class="onechoice">#1</span><br>choice among voters.</h3>
+                <h3 class="box">Out of 5 choices, <span class="spotifydata">Spotify</span> was the <span class="onechoice">#1</span><br>choice among voters.</h3>
                 </div>
             <div class="row box2">
                 <div class="col-sm-6">
@@ -337,7 +337,7 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
-                                    I researched the most-popular music-streaming services. Then, I took the top six services (Spotify, Pandora, Amazon Prime, Apple Music, Google Play) and proceeded to creating the polls. From there, I took the remaining top four chosen by audience.
+                                    I researched the most-popular music-streaming services. Then, I took the top five services (Spotify, Pandora, Amazon Prime, Apple Music, Google Play) and proceeded to creating the polls. From there, I took the remaining top four chosen by audience.
                                 </div>
                             </div>
                         </div>
@@ -395,7 +395,7 @@
         
         
     <section id="video" class="vidform">
-        <div id="vid">
+        <div id="vid gif">
             <video controls autoplay loop showinfo=0 style="height:100%;width:100%;pointer-events: none">
             <source src="img/VID%20SPEED%202.mp4" type="video/mp4">
             <source src="movie.ogg" type="video/ogg">
@@ -470,15 +470,67 @@
         }
     </script>
     
+    <!--graphs, charts d3-->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script>
+
+        function toggle() {
+      sales = (sales == days[0]) ? days[1] : days[0];
+      update();
+        }
+
+        function update() {
+          var rects = svg.selectAll('rect')
+            .data(sales, function(d, i) { return d.product });
+
+      var enterRects = rects.enter()
+        .append('rect')
+          .attr('x', x(0))
+          .attr('y', function(d, i) {
+            return y(d.product);
+          })
+          .attr('height', y.bandwidth())
+          .attr('width', function(d, i) {
+            return x(d.count);
+          });
+
+      rects.merge(enterRects)
+        .transition() // NEW
+        .duration(1000) // Also NEW
+          .attr('width', function(d, i) {
+            return x(d.count);
+          });
+    };
+
+        
+        
+    </script>
+
+    
     <!--scroll reveal for tiles on mobile-->
-    function fix()
+    <!--function fix()
     {
         var el = this;
         var par = el.parentNode;
         var next = el.nextSibling;
         par.removeChild(el);
         setTimeout(function() {par.insertBefore(el, next);}, 0)
-    }
+    }-->
+        <!--pie chart
+
+    <script>var data = {
+  labels: ['Spotify', 'Google Play','Pandora','Apple Music'],
+  series: [20, 6, 8, 6]
+};
+
+var options = {
+  labelInterpolationFnc: function(value) {
+    return value[0]
+  }
+};
+
+
+
 
 </body>
 </html>
