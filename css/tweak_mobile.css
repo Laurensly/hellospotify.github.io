@@ -319,14 +319,10 @@
     border-color: #ededed;
 }
 
-.vidform {
+#vid {
     display: none;
 }
 
-.gif{
-    visibility: visible;
-    width:100%; height:100%;      
-}
       
 .pie {
     padding: 0%;
