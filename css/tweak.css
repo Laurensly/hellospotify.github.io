@@ -114,30 +114,6 @@
     margin-right: %;
 }
 
-@media (min-width: 992px) {
-.embed-container iframe {
-    width: 10%;
-    height: 10%;
-    position: absolute;
-    left: 0;
-    align-content: center;
-    text-align: center;
-    margin-left: 2%;
-    margin-right: %;
-    }.chart-content {
-    width: 0%;
-    margin: 0px auto;
-}
-
-.embed-container {
-    height: 0;
-    width: 10%;
-    padding-bottom: 5.25%;
-    overflow: hidden;
-    position: relative;
-}
-}
-
 .iconlogo{
     color:white;
     word-break: break-all;
@@ -165,47 +141,12 @@
           box-sizing: border-box;
 }
 
-.box .bluebox {
-    width: 400px;
-    height: auto;
-    text-align: center;
-    margin: 20px auto;
-    padding: 50px;
-    border: solid 2px;
-    border-color: deepskyblue;
-    display: block;
-    word-break:keep-all;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.box .pinkbox{
-    border-color: salmon;
-}
-
-.box .orangebox{
-    width: 400px;
-    height: auto;
-    text-align: center;
-    margin: 20px auto;
-    padding: 50px;
-    border: solid #1ED760 2px;
-    border-color: gold;
-    display: block;
-    word-break:keep-all;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .box2{
     width: 50%;
-    height: 50%;
     float: right;
     text-align: center;
-    margin: 20px auto;
-    padding: 50px;
+    padding-bottom: 30px;
+    padding-left: 30px;
     border: solid #1ED760 2px;
     word-break:keep-all;
   -webkit-box-sizing: border-box;
@@ -226,7 +167,7 @@
 .top3{
     color:#1ED760;
     width: 100%;
-    font-size:50px;
+    font-size:30px;
     font-weight: bold;
     word-break: break-all;
     display: block;
@@ -234,15 +175,20 @@
 }
 
 .onechoice{
-    font-size:80px;
+    font-size:60px;
 }
 
 .datalist{
     width: 100%;
-    text-align:left;
+    text-align:center;
     align-content: center;
-    font-size:30px;
-    padding-left: 110px;
+    padding-left: 0%;
+    font-size:20px;
+}
+
+.pipe{
+    color: #1ED760;
+    font-weight: 800;
 }
 
 .textdata{
@@ -251,6 +197,13 @@
 
 .clickme{
     cursor: pointer; cursor: hand; 
+}
+
+.pie {
+    padding: 0%;
+    margin: 2%;
+    margin-left: 15%;
+    width: 70%;
 }
 
 /*.people{
