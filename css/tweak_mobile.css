@@ -319,14 +319,16 @@
     border-color: #ededed;
 }
 
-#vid {
-    visibility: hidden;
-}
 
 .gif{
     height: 100%;
     width: 100%;
     visibility: visible;
+}
+
+.vid{
+    visibility: hidden;
+    display: none;
 }
 
       
