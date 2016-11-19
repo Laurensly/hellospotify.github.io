@@ -320,7 +320,7 @@
 }
 
 #vid {
-    display: none;
+    visibility: hidden;
 }
 
 .gif{
