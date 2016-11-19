@@ -323,6 +323,12 @@
     display: none;
 }
 
+.gif{
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+}
+
       
 .pie {
     padding: 0%;
