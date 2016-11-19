@@ -352,21 +352,37 @@
     width: 70%;
 }
 
+@media (min-width: 768px)
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 2px;
+}
+
 .hello {
     color: #1ED760;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 58px;
     float: left;
+    margin-left: -12px;
     font-family: 'Montserrat', sans-serif;
 }
 
+.tabhello{
+    height: 100%;
+    color: #1ED760;
+    font-size-adjust: 10px;
+    font-size: 50px;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    }
+    
 #spotifymobile {
     height: 100%;
     color: #1ED760;
     background-color:black;
     font-size-adjust: 10px;
-    font-size: 55px;
-    float: left;
+    font-size: 50px;
+    margin-left: -12px;
+    float: center;
     font-family: 'Montserrat', sans-serif;
 }
  
