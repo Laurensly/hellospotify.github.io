@@ -345,14 +345,7 @@
       
 }
 
-@media all and (max-width: 959px) and (min-width: 600px) {
-.pie {
-    padding: 0%;
-    margin: 20%;
-    margin-left: 15%;
-    width: 70%;
-}
-
+/*
 @media (min-width: 768px)
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 2px;
@@ -360,7 +353,7 @@
 
 .hello {
     color: #1ED760;
-    font-size: 50px;
+    font-size: 90px;
     line-height: 58px;
     float: left;
     margin-left: -12px;
@@ -421,7 +414,7 @@
 .textdata {
     text-align: center;
     align-content: center;
-    width: 160%;
+    width: 100%;
 }
     
 .titletop3{
@@ -855,7 +848,7 @@ text-align: center;
 }
       
 }
-
+/*
 @media all and (max-width: 959px) and (min-width: 600px) {
 .pie {
     padding: 0%;
@@ -932,7 +925,7 @@ text-align: center;
 .textdata {
     text-align: center;
     align-content: center;
-    width: 160%;
+    width: 100%;
 }
     
 .titletop3{
@@ -1729,7 +1722,7 @@ text-align: center;
 }
       
 }
-
+/*
 @media all and (max-width: 959px) and (min-width: 600px) {
 .pie {
     padding: 0%;
@@ -1806,7 +1799,7 @@ text-align: center;
 .textdata {
     text-align: center;
     align-content: center;
-    width: 160%;
+    width: 100%;
 }
     
 .titletop3{
