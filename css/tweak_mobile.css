@@ -117,6 +117,7 @@
     font-size: 60px;
     font-weight: bold;
     line-height: 55px;
+    margin-bottom: 12%;
 }
 
 
@@ -1012,39 +1013,7 @@ text-align: center;
 
 /* ----------- iPhone 6 ----------- */
 
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-
-}
-
-/* ----------- iPhone 6+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+@media screen and (device-aspect-ratio: 375/667) {
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: #1ED760;
@@ -1255,11 +1224,381 @@ text-align: center;
 }
 
 .box2{
-    width: 40%;
+    width: 90%;
     height: 90%;
     float: left;
     text-align: center;
     margin: 17px;
+    padding: 10px;
+    border: solid #1ED760 2px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+      
+
+.nonscroll {
+    display: none;
+  }
+      
+.process{
+    width:100%;
+    height: 90%;
+    background: url('../img/portfolio/process2.jpg') no-repeat;
+    border:none;
+    color:white;
+    background-size: cover;
+    font:50px sans-serif;
+    text-align:center;
+    vertical-align: middle;
+}
+      
+.mobiletxt-body{
+    font-size: 3px;
+}
+
+.people{
+    width:100%;
+    height: 110%;
+    background: url('../img/portfolio/people.jpg') no-repeat;
+    border-style: none;
+    color:white;
+    background-size: cover;
+    font:50px sans-serif;
+    text-align:center;
+    vertical-align: middle; 
+}
+      
+
+.data{
+    width:100%;
+    height: 140%;
+    padding-bottom: 100px;
+    background: url('../img/portfolio/data.jpg') no-repeat;
+    border:none;
+    color:white;
+    background-size: cover;
+    font:50px sans-serif;
+    text-align:center;
+    vertical-align: middle; 
+}
+      
+/*resume when clicked*/
+.buttonclicked {
+    color: #fff;
+    background-color: #1ED760;
+    visibility: visible;
+    -webkit-transform: translateY(0) scale(1);
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    -webkit-transition: all 0.35s ease 0s, -webkit-transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s;
+    transition: all 0.35s ease 0s, transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s;
+}
+.buttonclicked:active {
+    color: #fff;
+    background-color: #1ED760;
+    visibility: visible;
+    -webkit-transform: translateY(0) scale(1);
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    -webkit-transition: all 0.35s ease 0s, -webkit-transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s;
+    transition: all 0.35s ease 0s, transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s;
+}
+
+.buttonclicked:hover, .buttonclicked:focus, .buttonclicked.focus, .buttonclicked:active, .buttonclicked.active, .open > .dropdown-toggle.buttonclicked{
+    color: #fff;
+    background-color: #1ED760;
+    visibility: visible;
+    -webkit-transform: translateY(0) scale(1);
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    -webkit-transition: all 0.35s ease 0s, -webkit-transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s;
+    transition: all 0.35s ease 0s, transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s;
+}
+      
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    color: #1ED760;
+    background-color: #f2f2f2;
+    border-color: #ededed;
+}
+
+
+.gif{
+    height: 100%;
+    width: 100%;
+    display: inline;
+}
+
+.vid{
+    display: none;
+}
+
+      
+.pie {
+    padding: 0%;
+    margin: 0%;
+    margin-left: 53%;
+    width: 40%;
+    margin-top: -135px;
+}
+.deskpad{
+     padding-bottom:0%;
+}
+}
+
+
+/* Portrait and Landscape 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+ Portrait 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+ Landscape 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #1ED760;
+}
+      
+.navbar-default .navbar-header .navbar-toggle {
+    font-weight: 700;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #1ED760;
+    background-color: #1ED760;
+    color: white;
+}
+      
+.navbar-default .nav > li > a, .navbar-default .nav > li > a:focus{
+              text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    color: #fff;
+}
+      
+      
+.nav-respond{
+    background-color: #000;
+    width: 100%;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.big {
+    font-size:150%; 
+    word-break: break-all;
+    color: white;
+}
+
+.big2 {
+    font-size:150%; 
+    word-break: break-all;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hello{
+    margin: .3%;
+    color: #1ED760;
+    font-size: 20px;
+    line-height: 20px;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#spotifymobile{
+    height: 100%;
+    color: #1ED760;
+    background-color:black;
+    font-size-adjust: 10px;
+    font-size: 20px;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+}
+      
+.section-heading{
+    font-size: 25px;  
+}
+
+.bg-contact{
+    background-color: #1ED760;
+    width:100%;
+    color:white;
+}
+
+.contact-top{
+    margin: 30px;
+}
+
+.resume{
+    margin-top: 20px;
+    background-color: #1ED760;
+}
+
+.data-long {
+    margin-bottom:100px;
+}
+
+.wrapper-data-long {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
+
+.layer {
+    background-color: rgba(248, 247, 216, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.pandora{
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 55px;
+}
+
+
+.dataraw {
+    text-align: center;
+    width:304; 
+    height:424.5;
+}
+
+.chart-content {
+    width: 50%;
+    margin: 0px auto;
+}
+
+.iconlogo{
+    color:white;
+    word-break: break-all;
+}
+
+.mobilelogo{
+    font-size: 10px;
+}
+
+.par{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.par2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+      
+.spotifydata{
+    color:#1ED760;
+    font-size:20px;
+    font-weight: bold;
+    display: block;
+    clear: right;
+}
+
+.onechoice{
+    font-size:20px;
+}
+      
+.datalist{
+    text-align:center; 
+    font-size:12px;
+    padding: 0px;
+    margin-top: -20px;
+    display: inline-block;
+    word-break: break-word;
+}
+      
+.mobilehr{
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    display: none;
+}
+      
+.top3{
+    color:#1ED760;
+    font-size:15px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 10px;
+}
+
+      
+.textdata {
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+    align-content: center;
+}
+      
+.box{
+    width: 150px;
+    height: 130px;
+    text-align: center;
+    padding: 10px;
+    border: solid #1ED760 2px;
+    word-break:keep-all;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.box2{
+    width: 90%;
+    height: 90%;
+    float: left;
+    text-align: center;
+    margin: 15px;
     padding: 10px;
     border: solid #1ED760 2px;
     display: block;
@@ -1374,9 +1713,10 @@ text-align: center;
 .pie {
     padding: 0%;
     margin: 0%;
-    margin-left: 0%;
-    width: 50%;
-    margin-top: -90px;
+    margin-left: 50%;
+    width: 35%;
+    position: absolute;
+    margin-top: -130px;
 }
 .deskpad{
      padding-bottom:0%;
