@@ -1903,3 +1903,13 @@ text-align: center;
 }
 
 
+@media screen and (device-aspect-ratio: 412/732) {
+    .pie{
+        margin-top: -34%;
+        width:35%;
+    }
+    
+    .pandora {
+        margin-bottom:13%;
+    }
+}
