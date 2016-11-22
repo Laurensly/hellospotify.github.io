@@ -1906,3 +1906,12 @@ text-align: center;
         margin-bottom:13%;
     }
 }
+
+@media screen and (device-aspect-ratio: 768/1024) {
+    .spotifydata{
+        font-size: 40px;
+    }
+    .onechoice{
+        font-size: 40px;
+    }
+}
