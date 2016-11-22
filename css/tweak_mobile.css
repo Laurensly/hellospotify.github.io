@@ -348,8 +348,8 @@
 .pie {
     padding: 0%;
     margin: 20%;
-    margin-left: 15%;
-    width: 70%;
+    margin-left: 4%;
+    width: 90%;
 }
 
 @media (min-width: 768px)
@@ -504,7 +504,7 @@ text-align: center;
 
 }
 
-/* ----------- iPhone 5 and 5S ----------- */
+/* ----------- mobile iPhone 5 and 5S ----------- */
 
 /* Portrait and Landscape */
 @media only screen 
@@ -531,7 +531,7 @@ text-align: center;
 }
       
 .navbar-default .nav > li > a, .navbar-default .nav > li > a:focus{
-              text-transform: uppercase;
+    text-transform: uppercase;
     font-weight: 700;
     font-size: 13px;
     color: #fff;
@@ -624,8 +624,8 @@ text-align: center;
     font-size: 60px;
     font-weight: bold;
     line-height: 55px;
+    margin-bottom: 36%;
 }
-
 
 .dataraw {
     text-align: center;
@@ -641,6 +641,11 @@ text-align: center;
 .iconlogo{
     color:white;
     word-break: break-all;
+}
+      
+.iconlogo .pandora {
+  margin-top: 90%;
+  color: black;
 }
 
 .mobilelogo{
@@ -661,20 +666,23 @@ text-align: center;
     color:#1ED760;
     font-size:20px;
     font-weight: bold;
+    word-wrap: break-word;
     display: block;
     clear: right;
 }
 
 .onechoice{
-    font-size:20px;
+    font-size:18px;
 }
       
 .datalist{
-    text-align:center; 
-    font-size:8px;
-    padding: 0px;
-    margin-top: -20px;
-    word-break: break-all;
+    text-align: center;
+    width: 100%;
+    font-size: 10px;
+    padding: 0%;
+    margin-top: 0%;
+    display: inline-block;
+    word-break: break-word;
 }
       
 .mobilehr{
@@ -684,6 +692,7 @@ text-align: center;
     text-align: center;
     display: none;
 }
+    
       
 .top3{
     color:#1ED760;
@@ -694,10 +703,13 @@ text-align: center;
     display: block;
     clear: both;
     margin-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     line-height: 10px;
 }
 
+.onechoice{
+    font-size: 20px;
+    }
       
 .textdata {
     width: 100%;
@@ -706,13 +718,20 @@ text-align: center;
     align-content: center;
 }
       
+.iphone5h4{
+    font-size: 10px;
+    word-break: break-all;
+    display: block;
+    clear: right;
+}
+      
 .box{
-    width: 150px;
+    width: 130px;
     height: 130px;
     text-align: center;
     padding: 10px;
     border: solid #1ED760 2px;
-    word-break:keep-all;
+    word-wrap: break-word;
     display: table-cell;
     vertical-align: middle;
     font-size: 10px;
@@ -722,16 +741,17 @@ text-align: center;
 }
 
 .box2{
-    width: 40%;
+    width: 90%;
     height: 90%;
     float: left;
     text-align: center;
-    margin: 17px;
-    padding: 10px;
+    margin-left: 17px;
+    margin-bottom: 0%;
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
     border: solid #1ED760 2px;
     display: block;
     clear: both;
-    word-break:keep-all;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -840,10 +860,10 @@ text-align: center;
       
 .pie {
     padding: 0%;
+    width: 45%;
     margin: 0%;
-    margin-left: 55%;
-    width: 40%;
-    margin-top: -90px;
+    margin-left: 50%;
+    margin-top: -45.6%;
 }
 .deskpad{
      padding-bottom:0%;
@@ -851,12 +871,213 @@ text-align: center;
       
 }
 
+/*iphone 6*/
+
+      
+@media screen and (device-aspect-ratio: 375/667) {
+
+    
+.hello{
+    margin: .3%;
+    color: #1ED760;
+    font-size: 20px;
+    line-height: 20px;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#spotifymobile{
+    height: 100%;
+    color: #1ED760;
+    background-color:black;
+    font-size-adjust: 10px;
+    font-size: 20px;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+}
+      
+.section-heading{
+    font-size: 25px;  
+}
+
+.bg-contact{
+    background-color: #1ED760;
+    width:100%;
+    color:white;
+}
+
+.contact-top{
+    margin: 30px;
+}
+
+.resume{
+    margin-top: 20px;
+    background-color: #1ED760;
+}
+
+.data-long {
+    margin-bottom:100px;
+}
+
+.wrapper-data-long {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
+
+.layer {
+    background-color: rgba(248, 247, 216, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.pandora{
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 55px;
+    margin-bottom: 14.5%;
+}
+
+.dataraw {
+    text-align: center;
+    width:304; 
+    height:424.5;
+}
+
+.chart-content {
+    width: 50%;
+    margin: 0px auto;
+}
+
+.iconlogo{
+    color:white;
+    word-break: break-all;
+}
+      
+.iconlogo .pandora {
+  margin-top: 90%;
+  color: black;
+}
+
+.mobilelogo{
+    font-size: 10px;
+}
+
+.par{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.par2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+      
+.spotifydata{
+    color:#1ED760;
+    font-size:20px;
+    font-weight: bold;
+    display: block;
+    clear: right;
+}
+
+.onechoice{
+    font-size:20px;
+}
+      
+.datalist{
+    text-align:center; 
+    font-size:8px;
+    padding: 0px;
+    margin-top: -20px;
+    word-break: break-all;
+}
+      
+.mobilehr{
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    display: none;
+}
+      
+.top3 {
+    color:#1ED760;
+    font-size:150x;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 10px;
+}
+
+      
+.textdata {
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+    word-wrap: break-word;
+    align-content: center;
+}
+      
+.box {
+    width: 40%;
+    height: 90%;
+    float: left;
+    text-align: center;
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+    border: solid #1ED760 2px;
+    display: block;
+    clear: both;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    
+.box2 {
+    width: 37%;
+    height: 90%;
+    float: left;
+    padding: 0%;
+    text-align: center;
+    margin-left: 4.5%;
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+    border: solid #1ED760 2px;
+    display: block;
+    clear: both;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.pie {
+    padding: 0%;
+    margin: 0%;
+    margin-left: 50%;
+    margin-top: 60px;
+}
+    
+}
+
+
+/*
+
 @media all and (max-width: 959px) and (min-width: 600px) {
 .pie {
     padding: 0%;
     margin: 20%;
-    margin-left: 15%;
-    width: 70%;
+    margin-left: 4%;
+    width: 90%;
 }
 
 @media (min-width: 768px)
@@ -991,9 +1212,9 @@ text-align: center;
      padding-bottom:0%;
 }
 
-}
+} come back*/
 
-/* Portrait */
+/* come back Portrait 
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
@@ -1001,44 +1222,17 @@ text-align: center;
   and (orientation: portrait) {
 }
 
-/* Landscape */
+ Landscape 
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 
-}
+} 
+*/
 
-/* ----------- iPhone 6 ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-
-}
-
-/* ----------- iPhone 6+ ----------- */
+/* ----------- iPhone 6+ plus----------- */
 
 /* Portrait and Landscape */
 @media only screen 
@@ -1064,7 +1258,7 @@ text-align: center;
 }
       
 .navbar-default .nav > li > a, .navbar-default .nav > li > a:focus{
-              text-transform: uppercase;
+    text-transform: uppercase;
     font-weight: 700;
     font-size: 13px;
     color: #fff;
@@ -1157,6 +1351,7 @@ text-align: center;
     font-size: 60px;
     font-weight: bold;
     line-height: 55px;
+    margin-bottom: 12%;
 }
 
 
@@ -1388,8 +1583,8 @@ text-align: center;
 .pie {
     padding: 0%;
     margin: 20%;
-    margin-left: 15%;
-    width: 70%;
+    margin-left: 4%;
+    width: 90%;
 }
 
 @media (min-width: 768px)
@@ -1540,5 +1735,89 @@ text-align: center;
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
+
+}
+
+
+/*galaxy s5*/
+@media screen and (device-aspect-ratio: 360/640) {
+
+.pie {
+    padding: 0%;
+    margin: 20%;
+    margin-left: 50%;
+    width: 40%;
+    margin-top: -41%;
+}
+
+.pandora {
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 55px;
+    margin-bottom: 15%;
+}
+    
+.onechoice{
+    font-size:20px;
+}
+      
+.datalist{
+    text-align:center; 
+    font-size:12px;
+    padding: 0px;
+    margin-top: -20px;
+    word-break: break-all;
+}
+      
+.mobilehr{
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    display: none;
+}
+      
+.top3{
+    color:#1ED760;
+    font-size:15px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 10px;
+}
+
+.onechoice{
+    font-size: 20px;
+    }
+      
+.textdata {
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+    align-content: center;
+}
+      
+.box{
+    width: 150px;
+    height: 130px;
+    text-align: center;
+    padding: 10px;
+    border: solid #1ED760 2px;
+    word-break:keep-all;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+      
 
 }
