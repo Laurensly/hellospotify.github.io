@@ -1888,3 +1888,18 @@ text-align: center;
   and (orientation: landscape) { 
 
 }
+
+/*galaxy s5*/
+
+@media screen and (device-aspect-ratio: 360/640) {
+    .pie{
+        margin-top: -37%;
+        width: 38%;
+    }
+    
+    .pandora{
+        margin-bottom:8%;
+    }
+}
+
+
